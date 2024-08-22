@@ -28,3 +28,5 @@ del dict_of_files["March 2017"]
 #Need to go to each link specified in the dictionary as a value and download the book
 for key,value in dict_of_files.items():
     newbook = requests.get(value).text
+#just been reading through the BS4 docs, looks like there's way better ways to be doing this,
+# so gonna be doing some more reading and not much actual programming work today :/
